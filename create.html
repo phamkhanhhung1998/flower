@@ -222,6 +222,7 @@
             <select id="music"></select>
             <input type="text" id="musicUrl" placeholder="https://.../bai-hat.mp3" style="margin-top: 10px; display: none">
             <p class="note" id="musicNote" style="display: none">Link trực tiếp tới file .mp3 (mở link là nghe được ngay). Chỉ dùng nhạc bạn có quyền chia sẻ.</p>
+            <p class="note">Nhạc có sẵn: Kevin MacLeod (<a href="https://incompetech.com" target="_blank" rel="noopener">incompetech.com</a>), giấy phép <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.</p>
         </div>
 
         <button type="submit" class="btn big">Tạo Link ✈</button>
@@ -242,9 +243,17 @@
     <script>
         /* =====================================================
          *  Danh sách nhạc: thả file .mp3 vào thư mục n/ rồi thêm 1 dòng ở đây
+         *  Nhạc có sẵn: Kevin MacLeod (incompetech.com), giấy phép CC BY 4.0
          * ===================================================== */
         const CUSTOM = "__custom__";
         const MUSIC = [
+            { label: "Canon in D (đàn hạc)", src: "./n/canon-in-d.mp3" },
+            { label: "Crinoline Dreams (piano & violin)", src: "./n/crinoline-dreams.mp3" },
+            { label: "Dreamer (piano)", src: "./n/dreamer.mp3" },
+            { label: "Evening (guitar & cello)", src: "./n/evening.mp3" },
+            { label: "Morning (guitar & đàn hạc)", src: "./n/morning.mp3" },
+            { label: "Smooth Lovin", src: "./n/smooth-lovin.mp3" },
+            { label: "Fresh Air (piano)", src: "./n/fresh-air.mp3" },
             { label: "Không phát nhạc", src: "" },
             { label: "Dán link nhạc mp3...", src: CUSTOM },
         ];

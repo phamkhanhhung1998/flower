@@ -147,6 +147,22 @@ https://phamkhanhhung1998.github.io/flower/baihat.mp3
    - Bài để **đầu tiên** sẽ được chọn sẵn
 5. Bấm **Commit changes**, đợi khoảng 1 phút rồi tải lại trang form.
 
+### Nhạc có sẵn trong danh sách
+
+Thư mục `n/` có sẵn 7 bài nhạc nhẹ nhàng của **Kevin MacLeod** ([incompetech.com](https://incompetech.com)), dùng miễn phí theo giấy phép [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) với điều kiện **ghi công tác giả** (đã ghi trong form tạo quà, đừng xoá):
+
+| Bài | File |
+|---|---|
+| Canon in D for Two Harps | `n/canon-in-d.mp3` |
+| Crinoline Dreams | `n/crinoline-dreams.mp3` |
+| Dreamer | `n/dreamer.mp3` |
+| Evening | `n/evening.mp3` |
+| Morning | `n/morning.mp3` |
+| Smooth Lovin | `n/smooth-lovin.mp3` |
+| Fresh Air | `n/fresh-air.mp3` |
+
+> "Tên bài" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License, http://creativecommons.org/licenses/by/4.0/
+
 ---
 
 ## 4. Sửa code trên GitHub (không cần cài gì)
